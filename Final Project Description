@@ -1,0 +1,32 @@
+Project Description:
+
+This project used two large sets of images for the computation of the percentage of drivers that were caught being 
+distracted behind the wheel, compared to the whole data set. The first set of images was the Training Images with over 22,000 files.
+This set contained 10 subfolders named c0 and going all the way until c9. Each of those subfolders contained many instances of the same
+action in an image (example: one folder would have contained all images showing drivers with their phone in their right hand). 
+Roughly 2000 + images in each folder c0 through c9. The Test images set contained over 79,000 files that were used to compare the 
+Training Images set against to investigate a result. 
+
+        c0: safe driving c1: texting - right c2: talking on the phone - right c3: texting - left c4: talking on the phone - left c5: operating the radio c6: drinking c7: reaching behind c8: hair and makeup c9: talking to passenger
+    
+I used a Batch Normalization with CNN and convolutional layers to process the Training Images set. 
+As well as the Canny function for the Test Images set.
+
+Because of time constraints and erros making the Jupyter Notebook (JN) code run properly, the results of this project are left unclear. 
+More computing power would have allowed for faster uploads and processing of images using an online GPU. 
+This project was attempted many times by uploading the notebook to Google Colab but without much success 
+(see comments at the end of the file). The online GPU that worked best for me as fas as being able to process the data to the fullest
+extent that I could was ### www.crestle.com/dashboard ###. This website tries to make using a JN to run code faster
+as pain-free as possible. It accesses the files and directories on the user's own machine, runs the calculations, 
+and allows for downloading alters files as their own versions of JN files. 
+
+Thank you.
+
+
+Gregory Urman
+
+https://www.linkedin.com/in/gregoryurman/
+
+Regis University
+Deep Learning class
+05-09-18
